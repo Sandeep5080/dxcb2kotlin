@@ -5,11 +5,14 @@ class Helloworld {
 
 }
 
-fun main() {
-    println("hello world")
+fun main(args : Array<String>) {
+    println("Hello, world")
+    println(false)
 
-    var ram = Normal();
 
-    ram.name = "harsh";
-    println("Name is : ${ ram.name}")
 }
+
+/*
+
+ */
+//

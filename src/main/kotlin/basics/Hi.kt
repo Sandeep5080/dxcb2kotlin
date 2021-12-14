@@ -1,14 +1,21 @@
 package basics
 
-fun main(args : Array<String>)
-{
-    var num1 : Int = 4
 
-    var num2 : Int = 5
+fun main(args : Array<String>) {
+    var num1: Int = 8
 
-    var result = num1 + num2
+    var num2: Int = 5
 
-    println("The addditin of $num1 and $num2 is $result")
+    var result : Int = 0
 
+    result = if (num1> num2)
+        num1
+    else if (num1 < num2)
+         num2
+    else
+        0
+
+    println(result)
 
 }
+
