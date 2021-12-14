@@ -1,7 +1,10 @@
 package Function
 fun main(args : Array<String>) {
-    for (i in 1..12)
-        if (i % 3 == 0)
-
-        println(i)
+    myLoop@for (i in 1..3) {
+        for (j in 1..3) {
+            println("$i $j")
+            if (i == 2 && j == 2)
+                break@myLoop
+        }
+    }
 }
